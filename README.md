@@ -39,3 +39,7 @@ This URL would generate an Open Graph image with the specified details.
 Please note that this is a simplified example, and you might need to encode URL parameters if they contain special characters.
 
 You can use this API endpoint to dynamically generate Open Graph images for your blog posts and integrate them into your website or application to enhance the sharing experience on social media platforms.
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+```
