@@ -4,8 +4,8 @@ export default function Page() {
   return (
     <div>
       <Head>
-        <meta name="og:title" content="Vercel Edge Network" />
-        <meta name="og:description" content="Vercel Edge Network" />
+        <meta name="og:title" content="GraphiGen" />
+        <meta name="og:description" content="Open Graph image generator app for the website" />
         <meta
           name="og:image"
           content={
@@ -19,7 +19,7 @@ export default function Page() {
           }
         />
       </Head>
-      <h1>A page with Open Graph Image.</h1>
+      <h1>GraphiGen - Open graph image generator</h1>
     </div>
   )
 }
