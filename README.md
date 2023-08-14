@@ -31,6 +31,8 @@ Here's an example URL with parameters:
 ```
 https://graphigen.vercel.app/api/og?author=Akhil%20G%20Krishnan&title=Creating%20Engaging%20Open%20Graph%20Images&description=Learn%20how%20to%20create%20eye-catching%20Open%20Graph%20images%20for%20your%20blog%20posts.&image=https://blog.saeloun.com/images/og_logo.png&date=2023-08-14&type=blog
 ```
+![Blog OG image example](https://github.com/akhilgkrishnan/graphigen/assets/22231095/73359d8b-f22f-4b74-add5-9bd268f464f0)
+
 
 This URL would generate an Open Graph image with the specified details.
 
