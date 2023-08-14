@@ -42,4 +42,3 @@ You can use this API endpoint to dynamically generate Open Graph images for your
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-```
