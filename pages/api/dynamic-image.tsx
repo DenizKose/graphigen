@@ -17,6 +17,7 @@ export default async function handler(req: NextRequest) {
     month: 'long',
     day: 'numeric',
   })
+  const type = searchParams.get('type') || 'blog'
 
   return new ImageResponse(
     (
