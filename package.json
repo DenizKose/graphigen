@@ -1,6 +1,6 @@
 {
-  "name": "vercel-og-nextjs",
-  "repository": "https://github.com/vercel/examples.git",
+  "name": "graphigen",
+  "repository": "https://github.com/akhilgkrishnan/graphigen",
   "license": "MIT",
   "private": true,
   "scripts": {
