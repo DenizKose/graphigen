@@ -11,7 +11,12 @@ export default async function handler(req: NextRequest) {
   const title = searchParams.get('title')
   const description = searchParams.get('description')
   const image = searchParams.get('image')
-  const date = searchParams.get('date') || new Date().toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })
+  let date = searchParams.get('date') || new Date()
+  date = new Date(date).toLocaleDateString('en-US', {
+    year: 'numeric',
+    month: 'long',
+    day: 'numeric',
+  })
 
   return new ImageResponse(
     (
@@ -23,7 +28,7 @@ export default async function handler(req: NextRequest) {
               <p tw="text-gray-600 text-sm mb-4">{description}</p>
               <div tw="flex justify-between items-center">
                   <span tw="text-gray-700 text-xs font-medium">{author}</span>
-                  <img src="https://avatars.githubusercontent.com/u/47183150?v=4g" tw="rounded-full" height="30" width="30"/>
+                  { image && <img src={image} tw="rounded-full" height="30" width="30"/> }
               </div>
           </div>
         </div>
