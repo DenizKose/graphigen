@@ -21,9 +21,12 @@ You can customize the parameters as follows:
 
 - `author`: The author's name.
 - `title`: The title of the blog post.
+- `category`: The title of the blog post category *(optional)*.
 - `description`: A brief description of the blog post.
 - `image`: URL of the image to be displayed on the Open Graph image.
 - `date`: Date of the blog post.
+- `locale`: Locale of the date *(optional, `en-US` by default)*.
+- `max`: Max symbols in the brief *(optional)*.
 - `type`: Content type (e.g., "blog").
 
 Here's an example URL with parameters:
